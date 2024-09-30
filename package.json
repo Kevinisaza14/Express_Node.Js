@@ -1,0 +1,14 @@
+{
+  "name": "express_mysql_base",
+  "version": "1.0.0",
+  "description": "Ejemplo base de un servidor web que conecta con MySQL",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3"
+  }
+}
