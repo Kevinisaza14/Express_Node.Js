@@ -8,14 +8,11 @@ const dataConnection = {
     database: "test"
 }
 
-const URLConnection = `
-    mysql://${dataConnection.user}:${dataConnection.password}@${dataConnection.host}:${dataConnection.port}/${dataConnection.database}
-`;
-try{
-    var connetion = await mysql.createConnection(URLConnection);
+try {
+    var connection = await mysql.createConnection(dataConnection);
     console.log("Conexión a MySQL correcta!");
-}catch (error){
+} catch (error) {
     console.log(error);
 }
 
-export default connetion;
+export default connection;

@@ -1,8 +1,7 @@
-// Si queremos exportar estas rutas de mi server, necesito utilizar
+// Si queremos exportar estas rutas de mi server, necesito utilizar la clase Router de express
 import express from 'express';
-
-// para crear una instancia de express // con el comando .router indicamos que las instancias que usen esta const seran idenficadas como rotas o endpoins que se puedan usar fuera de el archivo.
-const router = new express.Router(); // tambien se puede escribir como const router = new express.router()
+// podemos obviar "new"
+const router = new express.Router();
 
 router.get('/', (req, res) => {
     res.send('Hello World GET!');
