@@ -1,0 +1,28 @@
+{
+  "name": "servidor_practica",
+  "version": "1.0.0",
+  "description": "Servidor WEB TODO Created CRUD With MYSQL AND EXPRESS",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Kevinisaza14"
+  },
+  "keywords": [
+    "webserver",
+    "node",
+    "mysql"
+  ],
+  "author": "Kevin",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3",
+    "uuid": "^10.0.0"
+  }
+}
